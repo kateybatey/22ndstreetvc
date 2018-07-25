@@ -1,7 +1,7 @@
 <?php
 $errors = '';
 /* Replace here with your web email */
-$myemail = 'khaitawng2014@gmail.com';
+$myemail = 'katey@twentytwo.vc';
 if(empty($_POST['name']) ||
    empty($_POST['email']) ||
    empty($_POST['phone']) ||
@@ -22,7 +22,7 @@ if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]
 if( empty($errors) ) {
 	$to = $myemail;
 	$email_subject = "Contact form submission: $name";
-	$email_body = "You have received a new massage. ".
+	$email_body = "You have received a new message. ".
 	" Here are the address:\n Name: $name \n Email: $email_address \n Phone: $phone \n Message: $message";
 
 	$headers = "From: $myemail\n";
@@ -59,7 +59,7 @@ label,a,body {
 
 <div class="respond">
 	<h1>Thank you!</h1>
-	<p>Thank you for submitting the form. We will contact you soon!</p>
+	<p>Thanks for reaching out. We are excited to connect about twenty two. We will be in touch shortly.</p>
 </div>
 
 </body>
