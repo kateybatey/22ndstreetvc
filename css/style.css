@@ -65,14 +65,14 @@ html{
 }
 
 a {
-  color: #1dc9e3;
+  color: #08A8D0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #1dc9e3;
+  color: #08A8D0;
   outline: none;
 }
 
@@ -96,7 +96,7 @@ a:hover, a:active, a:focus {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #1dc9e3;
+  background: #08A8D0;
 }
 
 .section-title {
@@ -167,7 +167,7 @@ footer {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #1dc9e3;
+  background-color: #08A8D0;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
