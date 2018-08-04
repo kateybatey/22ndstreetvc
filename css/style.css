@@ -206,7 +206,7 @@ footer {
 }
 
 .navbar-default .navbar-brand {
-  color: #1dc9e3;
+  color: #08A8D0;
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
@@ -461,7 +461,7 @@ footer {
   width: 100%;
   height: 100%;
   opacity: 0;
-  color: #1dc9e3;
+  color: #08A8D0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -669,7 +669,7 @@ footer .footer-link ul li a {
 }
 
 footer .footer-link ul li a:hover {
-  color: #1dc9e3;
+  color: #08A8D0;
 }
 
 footer .footer-copyright {
@@ -714,7 +714,7 @@ footer .footer-copyright p {
 }
 
 .social-icon li a:hover {
-    background: ##08A8D0;
+    background: #08A8D0;
     color: #ffffff;
     top: -5px;
 }
